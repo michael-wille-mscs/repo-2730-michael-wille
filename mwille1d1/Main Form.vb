@@ -3,6 +3,7 @@
 'Purpose:    Calculate the total number of items sold and total sales.
 'Programmer: Michael Wille on 8/28/2017   
 
+Option Strict On
 
 Public Class frmMain
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
@@ -22,8 +23,8 @@ Public Class frmMain
 
     Private Sub btnCalc_Click(sender As Object, e As EventArgs) Handles btnCalc.Click
         'Calculate number of items sold and total sales
-        lblTotalItems.Text = Val(txtDonuts.Text) + Val(txtmuffins.Text)
-        lblTotalSales.Text = Val(lblTotalItems.Text) * 0.5
-        lblTotalSales.Text = Format(lblTotalSales.Text, "currency")
+        lblTotalItems.Text = Format(Val(txtDonuts.Text) + Val(txtmuffins.Text), "fixed")
+        lblTotalSales.Text = Format(Val(lblTotalItems.Text) * 0.5, "currency")
+        'lblTotalSales.Text = Format(Val(lblTotalSales.Text, "currency")
     End Sub
 End Class
