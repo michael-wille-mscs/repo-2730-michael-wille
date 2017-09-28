@@ -12,10 +12,10 @@ Public Class frmMain
 
 
     Private Sub btnCalc_Click(sender As Object, e As EventArgs) Handles btnCalc.Click
-        Const strPROMPT As String = "Salesclerk's name:"
-        Const strTITLE As String = "Name Entry"
-        Const decITEM_PRICE As Decimal = 0.5D
-        Const decTAX_RATE As Decimal = 0.02D
+        'Const strPROMPT As String = "Salesclerk's name:"
+        'Const strTITLE As String = "Name Entry"
+        'Const decITEM_PRICE As Decimal = 0.5D
+        'Const decTAX_RATE As Decimal = 0.02D
         Dim intDonuts As Integer
         Dim intMuffins As Integer
         Dim intTotalItems As Integer
@@ -25,7 +25,7 @@ Public Class frmMain
         Static strClerk As String
 
         'Assign name to class-level variable
-        strClerk = InputBox(strPROMPT, strTITLE, strClerk)
+        'strClerk = InputBox(strPROMPT, strTITLE, strClerk)
 
         'calculate total number of items sold
         Integer.TryParse(txtDonuts.Text, intDonuts)
@@ -45,9 +45,9 @@ Public Class frmMain
         lblTotalItems.Text = Convert.ToString(intTotalItems)
         lblTotalSales.Text = decTotalSales.ToString("C2")
 
-        'display tax and salesclerk's name
-        lblMsg.Text = "The sales tax was " & decSalesTax.ToString("C2") & "." &
-            ControlChars.NewLine & strClerk
+        ''display tax and salesclerk's name
+        'lblMsg.Text = "The sales tax was " & decSalesTax.ToString("C2") & "." &
+        '    ControlChars.NewLine & strClerk
 
 
     End Sub

@@ -19,6 +19,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "mwille1H1", "mwille1H1\mwil
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "mwille2A1", "mwilleEx2A1\mwille2A1.vbproj", "{80DF1F15-4A0E-4293-8009-67D98FF23D7A}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "mwille2B1", "mwilleEx2B1\mwille2B1.vbproj", "{25ACD6B7-9D0A-4BA5-9948-B46F88EE44DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{80DF1F15-4A0E-4293-8009-67D98FF23D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80DF1F15-4A0E-4293-8009-67D98FF23D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80DF1F15-4A0E-4293-8009-67D98FF23D7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25ACD6B7-9D0A-4BA5-9948-B46F88EE44DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25ACD6B7-9D0A-4BA5-9948-B46F88EE44DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25ACD6B7-9D0A-4BA5-9948-B46F88EE44DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25ACD6B7-9D0A-4BA5-9948-B46F88EE44DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
