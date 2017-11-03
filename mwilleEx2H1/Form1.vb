@@ -1,4 +1,16 @@
-﻿Public Class frmMain
+﻿'Michael Wille
+'If, Nested If, Elseif, Select Case
+'Calculate Commission Amounts
+'11/1/2017
+
+
+Option Strict On
+Option Explicit On
+Option Infer Off
+
+
+
+Public Class frmMain
     Private Sub txtSales_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtSales.KeyPress
         'Text boxes only accept numbers or backspace
         If (e.KeyChar < "0" OrElse e.KeyChar > "9") AndAlso e.KeyChar <> "." AndAlso e.KeyChar <> ControlChars.Back Then
